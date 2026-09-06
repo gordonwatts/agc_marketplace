@@ -1,0 +1,34 @@
+{
+  "name": "agc-skills",
+  "version": "0.1.0",
+  "description": "Skills for implementing Analysis Grand Challenge workflows with ServiceX, coffea, hist, and cabinetry.",
+  "author": {
+    "name": "Gordon Watts",
+    "email": "gwatts@uw.edu",
+    "url": "https://github.com/eigenforesi"
+  },
+  "repository": "https://github.com/eigenforesi/agc_marketplace",
+  "keywords": [
+    "analysis-grand-challenge",
+    "high-energy-physics",
+    "servicex",
+    "coffea",
+    "cabinetry"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "AGC Skills",
+    "shortDescription": "Build HEP Analysis Grand Challenge pipelines.",
+    "longDescription": "Domain guidance for retrieving datasets, processing events, applying corrections and systematics, plotting histograms, and performing cabinetry statistical analyses.",
+    "developerName": "Gordon Watts",
+    "category": "Developer Tools",
+    "capabilities": [
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Build the data-retrieval stage of this AGC analysis.",
+      "Process these events into analysis histograms.",
+      "Create and fit a cabinetry workspace from these histograms."
+    ]
+  }
+}

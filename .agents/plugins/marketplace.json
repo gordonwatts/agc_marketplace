@@ -1,0 +1,20 @@
+{
+  "name": "agc_skills",
+  "interface": {
+    "displayName": "AGC Skills"
+  },
+  "plugins": [
+    {
+      "name": "agc-skills",
+      "source": {
+        "source": "local",
+        "path": "./plugins/agc-skills"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Developer Tools"
+    }
+  ]
+}
