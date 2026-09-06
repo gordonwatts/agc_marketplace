@@ -1,7 +1,7 @@
 {
-  "name": "agc_skills",
+  "name": "agc_marketplace",
   "interface": {
-    "displayName": "AGC Skills"
+    "displayName": "Analysis Grand Challenge Marketplace"
   },
   "plugins": [
     {
